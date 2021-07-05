@@ -39,6 +39,7 @@ module.exports = {
         'Copyright (c) 2020 Sprocket, Inc.',
       ].join('\n'),
     }),
+    require('tailwindcss')
   ],
   devServer: {
     contentBase: './dist',
